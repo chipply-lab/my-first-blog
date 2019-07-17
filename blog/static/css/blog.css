@@ -44,19 +44,3 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
         color: #000000;
     }
-
-.btn-square {
-    display: inline-block;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    background: #ff9400; /*ボタン色*/
-    color: #FFF;
-    border-bottom: solid 1px #627295;
-    border-radius: 2px;
-}
-
-    .btn-square:active {
-        /*ボタンを押したとき*/
-        transform: translateY(3px); /*下に動く*/
-        border-bottom: none; /*線を消す*/
-    }
