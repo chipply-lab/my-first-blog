@@ -34,6 +34,9 @@
     <Compile Include="blog\apps.py" />
     <Compile Include="blog\models.py" />
     <Compile Include="blog\tests.py" />
+    <Compile Include="blog\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="blog\views.py" />
     <Compile Include="blog\__init__.py" />
     <Compile Include="manage.py" />
@@ -43,10 +46,13 @@
     <Compile Include="djangogirls\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog\templates\blog\post_list.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="blog\" />
+    <Folder Include="blog\templates\" />
+    <Folder Include="blog\templates\blog\" />
     <Folder Include="djangogirls\" />
   </ItemGroup>
   <ItemGroup>
